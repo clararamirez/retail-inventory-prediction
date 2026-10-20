@@ -6,6 +6,3 @@ def extraer_datos():
     print(f"Conectando a BD con {DB_USER}")
     return "datos crudos"
 
-def entrenar_modelo(datos):
-    print("Entrenando modelo sin limpiar datos...")
-    return "Modelo 50% preciso"
